@@ -23,3 +23,4 @@
 - [软件安全/软件安全实验](./software_security)
 - [腾讯游戏安全](../../../TencentGameClientOpenCourse)
 - [OpenHarmony操作系统原理](./openharmony)
+- [操作系统课程设计](../../../osDesign) [报告](./operating_system_design)
