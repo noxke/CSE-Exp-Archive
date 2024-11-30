@@ -22,3 +22,4 @@
 - [认证与访问控制](./access_control)
 - [软件安全/软件安全实验](./software_security)
 - [腾讯游戏安全](../../../TencentGameClientOpenCourse)
+- [OpenHarmony操作系统原理](./openharmony)

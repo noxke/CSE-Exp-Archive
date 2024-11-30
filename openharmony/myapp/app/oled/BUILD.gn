@@ -1,0 +1,13 @@
+static_library("oled") {
+    sources = [
+        "oled.c",
+    ]
+
+    include_dirs = [
+        "../shared_variable",
+        "../ssd1306_3rd_driver/ssd1306",
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/kal/cmsis",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+    ]
+}

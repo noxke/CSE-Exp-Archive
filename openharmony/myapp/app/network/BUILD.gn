@@ -1,0 +1,17 @@
+static_library("network") {
+    sources = [
+        "wifi_connect.c",
+        "get_online_time.c",
+    ]
+
+    include_dirs = [
+        "../shared_variable",
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/kal/cmsis",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        # HAL接口中的WiFi接口
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+        # 海思SDK接口中的lwIP TCP/IP协议栈
+        "//device/hisilicon/hispark_pegasus/sdk_liteos/third_party/lwip_sack/include",
+    ]
+}
