@@ -28,3 +28,4 @@
 - [计算机网络安全实验](../../../ltVPN) [报告](./network_security)
 - [逆向工程分析技术](./reverse_engineering)
 - [可信计算](./trusted_computing)
+- [软件安全课程设计](../../../EzAPIGuard) [报告](./software_security_design)
