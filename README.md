@@ -24,3 +24,4 @@
 - [腾讯游戏安全](../../../TencentGameClientOpenCourse)
 - [OpenHarmony操作系统原理](./openharmony)
 - [操作系统课程设计](../../../osDesign) [报告](./operating_system_design)
+- [计算机通信与网络课程设计](./computer_network)
