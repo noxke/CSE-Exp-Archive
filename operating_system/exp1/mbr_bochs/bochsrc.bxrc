@@ -1,0 +1,7 @@
+megs: 2
+romimage: file=bochs/BIOS-bochs-latest
+vgaromimage: file=bochs/VGABIOS-lgpl-latest
+floppya: 1_44="Image", status=inserted
+boot: floppy
+log: bochs_log.txt
+cpu: count=1, ips=4000000

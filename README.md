@@ -16,3 +16,4 @@
 - [计算机组成原理实验](./computer_organization)
 - [数字电路与逻辑设计实验](./digital_logic_circuit)
 - [编译原理实验](./compilers_principles)
+- [操作系统原理实验](./operating_system)
