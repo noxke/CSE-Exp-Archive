@@ -1,0 +1,15 @@
+// in dns
+zone "hust-cse.net" {
+        type forward;
+        forwarders {
+                10.10.27.4;
+        };
+};
+
+
+
+// in attack
+zone "hust-cse.net" {
+        type master;
+        file "/etc/bind/hust-cse.net.zone";
+};

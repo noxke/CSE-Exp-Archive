@@ -1,0 +1,13 @@
+$TTL 3D
+@       IN      SOA   ns.hust-cse.net. admin.hust-cse.net. (
+                2008111001
+                8H
+                2H
+                4W
+                1D)
+
+@       IN      NS    ns.hust-cse.net.
+
+@       IN      A     20.0.6.14
+*       IN      A     20.23.3.19
+
