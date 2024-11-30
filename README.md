@@ -8,4 +8,4 @@
 
 ## 目录
 
-- [信息检索（公选课程）](../../../search-recommend)
+- [信息检索（公选课程）](../../../search-recommend) [课程报告](./information_retrieval)
