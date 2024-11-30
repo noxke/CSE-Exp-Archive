@@ -18,3 +18,4 @@
 - [编译原理实验](./compilers_principles)
 - [操作系统原理实验](./operating_system)
 - [密码学课程设计](./crypto_practicum)
+- [区块链技术及应用](./block_chain)
