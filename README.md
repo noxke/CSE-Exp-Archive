@@ -21,3 +21,4 @@
 - [区块链技术及应用](./block_chain)
 - [认证与访问控制](./access_control)
 - [软件安全/软件安全实验](./software_security)
+- [腾讯游戏安全](../../../TencentGameClientOpenCourse)
