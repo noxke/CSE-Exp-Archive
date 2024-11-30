@@ -1,0 +1,103 @@
+Nonterminals useless in grammar
+
+    useless
+
+
+Terminals unused in grammar
+
+    STR
+
+
+Rules useless in grammar
+
+    4 useless: STR
+
+
+Grammar
+
+    0 $accept: exp $end
+
+    1 exp: exp '+' NUM
+    2    | exp '-' NUM
+    3    | NUM
+
+
+Terminals, with rules where they appear
+
+    $end (0) 0
+    '+' (43) 1
+    '-' (45) 2
+    error (256)
+    NUM <ival> (258) 1 2 3
+    STR <sval> (259)
+
+
+Nonterminals, with rules where they appear
+
+    $accept (7)
+        on left: 0
+    exp <ival> (8)
+        on left: 1 2 3
+        on right: 0 1 2
+
+
+State 0
+
+    0 $accept: . exp $end
+
+    NUM  shift, and go to state 1
+
+    exp  go to state 2
+
+
+State 1
+
+    3 exp: NUM .
+
+    $default  reduce using rule 3 (exp)
+
+
+State 2
+
+    0 $accept: exp . $end
+    1 exp: exp . '+' NUM
+    2    | exp . '-' NUM
+
+    $end  shift, and go to state 3
+    '+'   shift, and go to state 4
+    '-'   shift, and go to state 5
+
+
+State 3
+
+    0 $accept: exp $end .
+
+    $default  accept
+
+
+State 4
+
+    1 exp: exp '+' . NUM
+
+    NUM  shift, and go to state 6
+
+
+State 5
+
+    2 exp: exp '-' . NUM
+
+    NUM  shift, and go to state 7
+
+
+State 6
+
+    1 exp: exp '+' NUM .
+
+    $default  reduce using rule 1 (exp)
+
+
+State 7
+
+    2 exp: exp '-' NUM .
+
+    $default  reduce using rule 2 (exp)
