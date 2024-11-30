@@ -26,3 +26,4 @@
 - [操作系统课程设计](../../../osDesign) [报告](./operating_system_design)
 - [计算机通信与网络课程设计](./computer_network)
 - [计算机网络安全实验](../../../ltVPN) [报告](./network_security)
+- [逆向工程分析技术](./reverse_engineering)
