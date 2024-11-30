@@ -14,3 +14,4 @@
 - [数据结构实验](./data_structures)
 - [程序设计综合课程设计](./program_design)
 - [计算机组成原理实验](./computer_organization)
+- [数字电路与逻辑设计实验](./digital_logic_circuit)
